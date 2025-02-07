@@ -1,0 +1,71 @@
+name: Rully Pratama
+url: https://rullypratama.com
+
+links:
+  linkedin: https://www.linkedin.com/in/rullypratama
+
+personal:
+  name: Rully Pratama
+  email: hello@rullypratama.com
+  account: rully
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - Rakefile
+  - env
+  - _posts_todo
+  - redirects.json
+  - requirements.txt
+  - purgecss.config.js
+  - package.json
+  - package-lock.json
+  - _checks
+  - .clang-format
+
+include:
+  - .well-known
+
+destination: _deploy
+
+highlighter: rouge
+
+# TODO: inherit some of these from site.links
+
+header:
+  links:
+    - icon: book
+      url: /archive.html
+      title: Blog archive
+    - icon: camera
+      url: https://www.instagram.com/rullypratamaa/
+      title: My Instagram profile
+    - icon: linkedin
+      url: https://www.linkedin.com/in/rullypratama
+      title: My LinkedIn profile
+    - icon: twitter
+      url: https://twitter.com/rullyypratamaa
+      title: My Twitter profile
+    - icon: github
+      url: /assets/resume/resume.html
+      title: My Resume
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-purgecss
+  - jekyll-minifier
+
+# Disable smart quotes
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+jekyll-minifier:
+  remove_intertag_spaces: true
+  remove_quotes: true
+  simple_doctype: true
+  simple_boolean_attributes: true
+  compress_js_templates: true
+  uglifier_args:
+    harmony: true

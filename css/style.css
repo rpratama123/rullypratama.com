@@ -1,0 +1,684 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'fontawesome-stripped';
+  src: url(data:font/woff2;base64,d09GMgABAAAAAA+gAA8AAAAAHmgAAA9IAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDZAgOCZwMEQgKkCSNegsSAAE2AiQDIAQgBYVNB3AMgRwbJhwjETU1L70h+6sD3pD66A/AwlAUVHagCmEAGDmd2OE4Dnaetz9fcaaKdZnQZREx4yMkmfWfr8v/X3sf1Olq6AauyJ0rVgD0dcd6Yj1q7Jk6D/ryZMJRhjcf426AAJCT8Dzz9+rD1DqVS2/FeBWLKN9aTxyqkP+SYc4ws02HF+vw7+l/TtupmYt0YDuY2dx6MJp73Vx4Aq+R9olfll/pfruoJ4jdzM4GuVdUiL0cInr58KeHpgSccLG0KRwkILr//3Olffcl6U4JPS0ZV5LsXObPJpuXyTJkCWemhEvgWhYK1Z6VgCVURMJVtbqnx1dWuipfY0ho1S6r7UakDX05Qt9eo63ZM7DrElCJFD4iXwYEwEbCddzRNTCB0HpqfxP5JEYK12G7P62vLKVgUDUkJMCka9p7ik/oLSiAH+VfAnht+eXpn2iJAYYSGH3zkcXOefz22EmZGMus4qb4HB8AiECYQEGggWQePd2RR5EwoZUC9nKJoW8VgAFDHvODngefn9BO1jMZOEYqdSQ06UW69gWjfQn5kweQRrIggEXzaLGAY7QDIOM4ADaOAxCLHvQEIBc9+DwAteiEFoBedFKm2HVI/rppDUtjcqYz6Tj92wiN9qf1+M2Z9FmTrolZi84rkzNprkztGBjMzWW8HhhrwQug9juoMHkHAScfORhq1ToEpD0RU1cmfI84JSVfearna2UnYe4cCwGD2cst8vq4444OJk9p+5aF2etCxeTBLYGpvovrZC95BdfhMHbZ2sGNZJSIZDEwc56yrcpnNdIKv71GVj+7Gh3mYDxAp2ARHrd+hcFoU2YCI9dHcW02F9ctF1+iVPBzSw21UmaPE26Cin4bIUdSXmkq2ZJOrlPu2ms+T+cLU4xjd4CdAMfgNoAzJHbvGMrFscVn+X9Extj7/FfSirHNEYoxKk/xA5JN9dGhIANBem4FixsByzzGvLE2QtmhbW0yik3VanmpULp6RnY1LwRZ+6h123h2SnH+0xprotuR1WZIGyZvxaDRRsG9C0zMP7HlmMthAR+fdejwMZnn8plXAeYz3DqCvqGMte7wQRSdJsTxfyktAbLYzbE6J/WTm9nofCPCgX9qg4b8HYPICzC4P0UFRHqSQSlvpLV0Nua90Y4zj2utQoR3vf7xhxPcN4uKH4Au6xRS2jz6SXBIOtNGsEZtfGodYVTuSMzP+I4IdIwIYX7eO5ibzEciKdwi4juisCGL3FL+S/ku5Q1RJin3QzKbpLeM4ctOqPKnH+8TbOvxieI1m+HLdjvLWK3Fk55CxURv14mFO0ONJxojIOy+huuIHAyVKgjfGFG2i0W6L68Enn5k3eo39tYzOOKgC/UiI2GOiEAQ6cRT3fHfXStkUvsQwU5Hqt33loWJio60E4iZlwEh8wQNZC/pIndmUsYnLk14742nU48MNfVUX+TVOH8vOrJRUTxz5CQmymWmPBaUz5IKWFEhaypii4rZUAn7yuuhrp8Rnb/sBJUG+jinnO9oqIjL1n83boyr0v9GzcEE4WhiDdSctRV0MA2lCChDQDkCKhBQiYAqBFQjoAYBtQioQ6hugiwFKzVHJ3Kz9HSr4kFyyqYpXjMT6DhRj826owUiIzmRVZrn9EK9+1jXGE6nU1pVNdSTom02Wtar0mIQXkYDvTO26T6++izkndJl5zABQyRxF4eiGnbZHVGeQkSkXtG5elYLM0flPGRJRqoXAsqvyHEBzbUlx0UyH+J49OBLqCzlA2lEMbBzygf8VF45spFmCQfGRsh8d1G1uPzUcRmgJMc80pFOcusakAP8fHZYmkxkqVxcNnMlRxrUJmjzlE8r3L8OgnsTTmSYDeZEVrNz0XsVbEqRChXqMMmLEVZcXdKlXCNNI5laRTG3xpFRzOqmS7lO6R8rqwiy0mGeM4rNIew0JOCUSequgigqKfkoz65TgmJkJQG7iGBdip4kpi46rrpBBMlTFRTq0tx13LUcbJwzBMVRsp13PaRJipOnAfehkSW15mS3KwTlhyK07wZ8ut2S4sEuI906Ua6Fe/qNoXK83btiwslHHdu/TS5UGgea7tY5DBtmKwZZik1N6NSzzqatu2+ZjaHbDus29TW3g8uRW2QHuBKLY1V8nWa5SBaFZkNimjpzUMamVzm9JRMwr7cKTkfHa6XROdbRXah2l3vo9XD+IUYRrMxRl2GXLumcsbGSZ6OK1F2OjWcOkZ6dafOsNixDUvVHr1ec5bM7nLudS1jg/PrW9DX0o0I3WVxg/gC4FGnwRigHKo0MS3njqOwhBHMWgzVqGB3kUGCElUYXkGCM1R3H44gnFNDkAhJMsVZO4wQWlBmrKSUXkuCmpu6tISvfZuU7rHyX1b0nDonvI3EKiWeR3Dk8jnkex7yAY17EcXhJJdTaMmptBbW2ilpbUzVeZ+UNVt5kbd9CxZb3wtupLNyq76DV3bV4KEFb7R5qU4CnOgNo9QaghgKoDNGoF016veYNQqkFAMFotSqpzQDUXgDBCh066NSBVAeYBXTCAHTSAHIK4sRpXZzRxVldnLOAzhuAZAaoxu1X4Vu1EcvKBqsUUnmwkG1mYCYShdotq+YvkzlJTVfUMzhcQKBMRhijBQb3iACygf4N8AJGUrhisIghrJB8MgmNswgHNX21FG1tZwpsqKGhb6VKqT19K2Y8aNtre4vJfMKXc99F02/Qp1nThv1QZkbwiJDb8NSCLa8pKys+Z5yz7vnActN21vgWIAQPBchDdO+twRCbVnKpALtqvmc9DWWtPcjkY42nG7ObU3hsODg4LXltETYzI0Y90OGE9N07uUKRazJNSfLRqNoyOSBjChgW9L2ENfDnerwivOPI+1MQROuMobD/mbumONh40ATpQrBbwEfY9a0ZdPVqDRGEJ+tSGGC9XeZe+txTT00xoClYA79tKHy3H64u62YMwFr4HJLZpT9RduMmA03ShZh03WKed4POTZge1XocB0nfvabhy/gTMC54IHeNZPVWAdjx2JVjTgTB6wWYQoAnP0SX4x5KKFQlgfQVlSp7g73FX1eTqGRMvqncZ3VD4rsoANCHIbtvbu+hF07kSvv3Nw9HB8eWHi4sZIPLI/e56zLP+ATvuFLiOUF4wbhC8VIhkHLnFSkKl8lfkW8c5QATDOoGN5yIV3QdHpsyagWaIVGuSaaSdMj6CkE2t6AynyvO149aBDSgs5//6vF8IujP9u/+fjBbo1auVqbGPp3ZB39/5/bnjYnnHpwqS0q6djA9oUoeQyvRz6CsNj1oQshRERNreaZm4415W2lGmnmsCmg5XLUqQvmrjzJa4m21rz2VfMp2I5lTPG1aJC02nhRzkhv7UwlUItAw/MICT6ChZTn5vJwytLwL3OILQw1BEvJBaHr6mXTJSZCZCTBJ9rOv/VJTqb/6Jaf66y7kFzS/gHYDdLbR2NiocdYQhU8UXr0Ont68+ZjcdVHpLY4n+bhGZWz3/Hk94wq7RL9v3t3WVGcqBVCUPPTutYYzPHyL+tfS2RQvGrPn2YBeCIfixmrl90pjUkUjUT4uv1CtMmPz6cPuv2gh9c5fay0nyMPI2q/jJy38SVER2kxRVarqh4w1vUyaqtLos2rZnMV9izHLVvhXeN+K632iIiISibG5zDvdmDsVlAW62pLMWB3ZccOSCIa5Fqv+2+TsUBJ3JdouPut8WMpRbiUlnI4WF8ZAidFPMxPHPOLv/GqzbXN31uamI3CsT7mZVi87Ctiy9nMIcWYTz5IMPbahLxPU7SQw0px5pJ1Z2x6bN8v8GHnttoL8ckJ73yAHSX1iAiQsPj0E4cH1WflcmBWKpkOhLuwoSTIjBn6d4RijkqzXaIa2X60zCxfHBKSaFdN4ZG27KLJELR5BzbrY5uF1p1Dht67B2wEiuxfJNHFqjM6AxGb4UbDLt6gQfeFfpS7KZ+eL1Vk6/HWJe4etdhbJ1/c5SZwT3uF8Y++wph997Uh3al70/8kjUWMMugAAmTExJPLI2j/ES/yHz7hEjIsxd3CxjZU8TyxqibiGQHJAk1TSs0goVoKfhgKT4hUQQEkQIQUQRm8mJydGhvv7ujovXWhurCgzOrvejYdi5Ukfs8UeLFieIRA8pMmzSQuhk8yE93EPQovhinLbR6h5eX1FfUlhXk4s7Cuzy5SEIeNn9X8w+SIpGiGpwsGAYC0GoC22ND8NFhaLJ0FQktQSJCwtrSUIQExDCNwDBIY31xfn796Zmuzv6Wy7dvmc0Tn1bmxTQ53DSuk8kio7xkL6iVgOQCvtQUnlQQrpQbDwwMSe0R9hRXZ2ebSsxtJF9W5UGSmiAcvHZJQh9bSWDIUXCLARvAJDyiRhjEpBGTUK1L7UKSzIPhWNBAM+DQERtWX6l4hOjg11SzZBMAQP+MgylgfDxpPEgj0ICI8ICh6ltZqGUjoFrfTo5ER5Ub9XWay+MG7rknqX5idJNJCTnRWPRcOhoM+mvv50aGTGLRNEkjxAscIumJ+HVEpOQ0p1T5OSarjAZROcmp9uVCbdcO4rSUFuQX5e9PUjls6vBwEgYO/iyTf3wlf/b8LiGAD+GXnEb3nPzF+ZEpkQYwAMGKAOPaJeBNncoT866SsqxSJbrGErAfHhhOmCaU0SCFGvN9iFvgcj2yWvAxZCAYwqYv7Oks5Z23iCwbl4hoVrIjCjQyQYA/EKfkyIBuNevI16S/f3I+4dAiR9AFbxGcQTIoXjGSEqEQFGo0gwrsUrZDcoGoy5eBtTtHeJH1X97b/SF7fbOL8s2n7myHrdq+u+1UQ9+ameFLLB+jIIu20vrdeBlLc0JbIdXtgbu9ewdHq/bvHVHGldWPvbvqzn0DuIema0YwvbeAS7WMESlrEPR4121HKclnBypsgsFWcqRBGEtZtIYb0ohYPp8HKp7IG4ThZ3sonIQlfW15E3mcMWNspkjBQt4YBcNIVdTOdpmSqKfXilbOSOFk0SFOgOb1KFUyUZ82oX7eFQyGmyfB+LsthXCl3M0YVKHNvlsnqSOSzc5BDZR67tsmbNpuUyRttg4wkNMQmSpEiTRYZ8MBupvaeyczf1s5aufMYtzXpy1TPPe5o+Uy/tK5cPZoNj5am5tWdD7wmg/0f8dSwcEb2RTNNjAUdvH8FqOwLqlpval/4EwI/u+BME0HFUMfnS6EzafWkmTfNcU/qjQSMGHcmCo2oU8bN5GiRn8ucmCtVo6iOE6n6kjJeWrx/xOfYbNa/R0QEAAA==) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;  /* icon font, we can't use fallback */
+}
+
+[class^="font-awesome-"],
+[class*=" font-awesome-"] {
+  font-family: fontawesome-stripped;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+[class^="font-awesome-"]:before,
+[class*=" font-awesome-"]:before {
+  display: inline-block;
+  speak: never;
+}
+
+.font-awesome-mastodon:before { content: '\e800'; } /* '' */
+.font-awesome-camera:before { content: '\e801'; } /* '' */
+.font-awesome-book:before { content: '\e802'; } /* '' */
+.font-awesome-twitter:before { content: '\f099'; } /* '' */
+.font-awesome-linkedin:before { content: '\f0e1'; } /* '' */
+.font-awesome-github:before { content: '\f113'; } /* '' */
+.font-awesome-stackoverflow:before { content: '\f16c'; } /* '' */
+
+/* If the font is used everywhere, we inline. If not, it's external. */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/jetbrains-mono.woff2) format('woff2');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(/fonts/open-sans.woff2) format('woff2');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/fonts/open-sans-bold.woff2) format('woff2');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(/fonts/open-sans-italic.woff2) format('woff2');
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(/fonts/open-sans-bold-italic.woff2) format('woff2');
+  font-display: fallback;
+}
+
+html {
+    /* always show scrollbar to prevent jumping */
+    overflow-y: scroll;
+}
+
+div.body {
+    max-width: 720px;
+    margin: 1em auto;
+    padding: 0 0.7em;
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+}
+
+div.body-wide {
+    max-width: 1200px;
+    margin: 1em auto;
+    padding: 0 0.7em;
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+}
+
+aside {
+    position: relative;
+}
+.sidenote-only {
+    display: none;
+    visibility: hidden;
+}
+.mermaid {
+    margin: auto;
+    display: inline;
+}
+.non-sidenote-only {
+    /* May be a div or span */
+    display: inline;
+}
+
+/* 720px main + (551px of sidenote + some buffer) * 2 */
+@media (min-width: 1900px) {
+    aside {
+        width: 530px;
+        overflow: auto;
+        font-size: small;
+
+        padding-left: 15px;
+        border-left: 1px solid #ccc;
+        text-align: left;
+        float: right;
+        clear: right;
+
+        /*
+         * At 530px we exactly clear. Then we have 15px of padding + 1px
+         * border, and 15px more to match.
+         */
+        margin-right: -561px;
+    }
+
+    .non-sidenote-only {
+        display: none;
+        visibility: hidden;
+    }
+
+    aside > p:first-child {
+        margin-top: 0;
+    }
+
+    aside > p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    color: #B6000F;
+    text-decoration: none;
+    display: inline;
+}
+
+a:hover, summary:hover {
+    color: #FFF;
+    background-color: #B6000F;
+}
+
+summary {
+    color: #B6000F;
+    background-color: #ffe6e8;
+    padding: 0 0.6em;
+}
+
+/* We have a single navigation element, in a different colour, that links back
+   to the home page. The rest have the normal link styling. */
+header {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+/* This is a hack to clear the header floats. */
+header:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+ul.twocol {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+header nav div.home {
+    float: left;
+}
+
+header nav ul.extra {
+    float: right;
+}
+
+header nav div.home a {
+    color: #FFF;
+    background-color: #B6000F;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: all 100ms ease-in;
+}
+
+header nav div.home a:hover {
+    color: #B6000F;
+    background-color: rgba(204, 51, 63, 0.1);
+}
+
+header nav ul.extra li:last-child a {
+    margin-right: 0;
+}
+
+header nav ul.extra li a {
+    margin: 0 0.4em;
+    color: #aaa;
+}
+
+header nav ul.extra li a:hover {
+    color: #B6000F;
+    background-color: transparent;
+}
+
+header nav div.home a {
+    margin-left: 0; /* Since this navigation element is always the leftmost, we
+                       override it to not have any left margin (whereas the
+                       other links in the nav area do. ) */
+    padding: 0 0.4em;
+}
+
+header nav div.home h1 {
+    display: inline;
+    font-size: 1em;
+}
+
+:not(header) h1 {
+    font-size: 1.6em;
+    margin: 0.6em 0;
+}
+
+h2 {
+    font-size: 1.6em;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #ccc;
+}
+
+h3 {
+    font-size: 1.2em;
+    padding-bottom: 0.1em;
+    border-bottom: 1px solid #ccc;
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer {
+    border-top: 2px solid #eee;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+
+footer div.info {
+    float: left;
+}
+
+footer div.contact {
+    float: right;
+}
+
+footer div.contact a {
+    font-style: normal;
+}
+
+footer div.contact p {
+    text-align: right;
+}
+
+footer div p {
+    margin: 1em 0 0;
+}
+
+article > p {
+    margin: 1em 0;
+    text-align: left;
+	line-height: 170%;
+}
+
+pre:not(.mermaid), code {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 95%;
+}
+
+:not(pre) > code {
+    white-space: pre-wrap;
+}
+
+pre > code {
+    white-space: pre;
+}
+
+pre:not(.mermaid), :not(pre) > code {
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+}
+
+a > code {
+    background-color: transparent;
+    border: none;
+}
+
+pre:not(.mermaid) {
+    padding: 0.6em;
+    overflow: auto;
+}
+
+blockquote {
+    text-align: left;
+    margin-left: 1.5em;
+    padding-left: 0.7em;
+    border-left: 3px solid #ddd;
+    text-align: justify;
+    margin-right: 0;
+    font-style: italic;
+}
+
+.citation-container pre, .citation-container blockquote, .citation-container blockquote p {
+    margin-bottom: 0;
+}
+
+.citation {
+    margin-top: 0.2em;
+    text-align: right;
+    font-size: small;
+    font-style: italic;
+}
+
+iframe {
+    /* lol browsers */
+    border: none;
+    border-width: 0;
+}
+
+.screen-reader-text {
+    position: absolute;
+    /* The next two lines are among the worst shite I've ever written. */
+    top: -9999px;
+    left: -9999px;
+}
+
+.youtube-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.youtube-container iframe,
+.youtube-container object,
+.youtube-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    article p {
+        text-align: left;
+    }
+
+    footer div.info, footer div.contact {
+        float: none;
+    }
+
+    footer div.contact p {
+        text-align: left;
+    }
+}
+
+img:not(.nonstandard):not(.leaflet-marker-icon),
+video:not(.nonstandard) {
+    display: block;
+    max-width: 100%;
+    margin: 2em auto;
+    height: auto;
+}
+
+/* To avoid wrapping dashes for arguments in <code>, see
+ * https://github.com/cdown/chrisdown.name/issues/1 */
+.nowrap {
+  white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Damn son, Chrome's default margins for figure are crazy */
+figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.light {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+details {
+    padding: 0.6em 0;
+}
+
+summary:after {
+    content: "Click to expand";
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+summary > * {
+  display: inline;
+}
+
+/* If the screen is too small to show the whole width, assume
+ * we're going to have to scroll tables.
+ *
+ * Not always applied because this causes tables to not fill the full width of
+ * the body.
+ */
+@media only screen and (max-width: 720px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .hide-if-small {
+        display: none;
+    }
+
+    ul.twocol {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+table:not(.light) th, table:not(.light) td {
+    padding: 0.3em;
+    border: 1px solid #ccc;
+}
+
+table.light th, table.light td {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+}
+
+table.tworight td:nth-child(2) {
+    padding-left: 0.5em;
+    text-align: right;
+    opacity: 50%;
+}
+
+table.twowrap td:nth-child(1) {
+    white-space: nowrap;
+}
+
+table thead th {
+    background-color: #f8f8f8;
+}
+
+table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+table.light th, table.light td {
+    padding: 0.2em 0.5em;
+}
+
+table.light td {
+    vertical-align: top;
+}
+
+tbody th {
+    text-align: left;
+}
+
+td.status-image {
+    text-align: center;
+}
+
+td.status-image a img {
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+td.status-image a:hover {
+    background-color: transparent;
+}
+
+/* Mermaid might not pad enough. At least on Windows, sometimes the text runs
+ * over, which is pretty nasty. This is a terrible hack, obviously. */
+.mermaid svg text.noteText tspan {
+    /* purgecss ignore current */
+    font-size: 15px !important;
+}
+
+/* Syntax highlighting. Suggested to use http://colormind.io/ to get */
+
+.highlight .c { color: #999999; font-style: italic } /* Comment */
+.highlight .err { color: #fff; background-color: #B6000F } /* Error */
+.highlight .cm { color: #999999; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #999999;  } /* Comment.Preproc */
+.highlight .cpf { color: #999999;  } /* Comment.Preproc.File */
+.highlight .c1 { color: #999999; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #999999; ; font-style: italic } /* Comment.Special */
+.highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+.highlight .gd .x { color: #000000; background-color: #ffaaaa } /* Generic.Deleted.Specific */
+.highlight .ge { font-style: italic } /* Generic.Emph */
+.highlight .gr { color: #aa0000 } /* Generic.Error */
+.highlight .gh { color: #999999 } /* Generic.Heading */
+.highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+.highlight .gi .x { color: #000000; background-color: #aaffaa } /* Generic.Inserted.Specific */
+.highlight .go { color: #999999 } /* Generic.Output */
+.highlight .gp { color: #555555 } /* Generic.Prompt */
+.highlight .gu { color: #aaaaaa } /* Generic.Subheading */
+.highlight .gt { color: #aa0000 } /* Generic.Traceback */
+.highlight .kt { color: #324971;  } /* Keyword.Type */
+.highlight .m { color: #324971 } /* Literal.Number */
+.highlight .s { color: #B6000F } /* Literal.String */
+.highlight .na { color: #008080 } /* Name.Attribute */
+.highlight .nb { color: #324971 } /* Name.Builtin */
+.highlight .nc { color: #324971;  } /* Name.Class */
+.highlight .no { color: #008080 } /* Name.Constant */
+.highlight .ni { color: #800080 } /* Name.Entity */
+.highlight .ne { color: #B6000F;  } /* Name.Exception */
+.highlight .nf { color: #B6000F;  } /* Name.Function */
+.highlight .nn { color: #555555 } /* Name.Namespace */
+.highlight .nv { color: #008080 } /* Name.Variable */
+.highlight .w { color: #bbbbbb } /* Text.Whitespace */
+.highlight .mf { color: #324971 } /* Literal.Number.Float */
+.highlight .mh { color: #324971 } /* Literal.Number.Hex */
+.highlight .mi { color: #324971 } /* Literal.Number.Integer */
+.highlight .mo { color: #324971 } /* Literal.Number.Oct */
+.highlight .sb { color: #B6000F } /* Literal.String.Backtick */
+.highlight .sc { color: #B6000F } /* Literal.String.Char */
+.highlight .sd { color: #B6000F } /* Literal.String.Doc */
+.highlight .s2 { color: #B6000F } /* Literal.String.Double */
+.highlight .se { color: #B6000F } /* Literal.String.Escape */
+.highlight .sh { color: #B6000F } /* Literal.String.Heredoc */
+.highlight .si { color: #B6000F } /* Literal.String.Interpol */
+.highlight .sx { color: #B6000F } /* Literal.String.Other */
+.highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .s1 { color: #B6000F } /* Literal.String.Single */
+.highlight .ss { color: #990073 } /* Literal.String.Symbol */
+.highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #008080 } /* Name.Variable.Class */
+.highlight .vg { color: #008080 } /* Name.Variable.Global */
+.highlight .vi { color: #008080 } /* Name.Variable.Instance */
+.highlight .il { color: #324971 } /* Literal.Number.Integer.Long */
+
+#js-errors {
+    background-color: #ffdddd;
+    border-left: 6px solid #B6000F;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+#js-errors .error {
+    margin-top: 5px;
+}
+
+/* Birds */
+#map {
+    height: 350px;
+    margin-bottom: 1em;
+}
+w
+#sightings-table {
+    display: table;
+    width: 100%;
+}
+
+#sightings-table-container {
+    position: relative;
+    overflow-y: auto;
+    height: 350px;
+}
+
+#sightings-table-container::before,
+#sightings-table-container::after {
+    content: '';
+    position: sticky;
+    left: 0;
+    right: 0;
+    height: 20px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+#sightings-table-container::before {
+    top: 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), transparent);
+}
+
+#sightings-table-container::after {
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.2), transparent);
+}
+
+#sightings-table-container.has-top-content::before {
+    display: block;
+}
+
+#sightings-table-container.has-bottom-content::after {
+    display: block;
+}
+
+
+#sightings-table-container::before,
+#sightings-table-container::after {
+    display: none;
+}
+
+#name-filter {
+    width: 100%;
+    font-family: inherit;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-style: solid solid none;
+}
+
+@media only screen and (max-height: 1080px) {
+    #map {
+        height: 250px;
+    }
+    #sightings-table-container {
+        height: 200px;
+    }
+}
+
+#sightings-table tbody tr:hover {
+    cursor: pointer;
+}
+
+@keyframes flashAnimation {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.flash {
+  animation: flashAnimation 0.5s 2; /* Run animation twice, 0.5s for each iteration */
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+    content: " \25B4\25BE"
+}

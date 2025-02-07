@@ -1,0 +1,44 @@
+This repository contains content licensed under multiple licenses, please read
+carefully.
+
+---
+
+The blog content in the "posts" directory is licensed under a Creative Commons
+Attribution ShareAlike license, see
+http://creativecommons.org/licenses/by-sa/4.0/. Please attribute me as "Chris
+Down", with a link to my website.
+
+---
+
+The icon font used is a modified version of Font Awesome with unused glyphs
+stripped.  Font Awesome is licensed under the SIL Open Font License, which can
+be found at http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL.
+
+---
+
+instant.page is made by Alexandre Dieulot and is licensed under an MIT license,
+found here: https://instant.page/license
+
+---
+
+mermaid.js is made by Knut Sveidqvist and is licensed under an MIT license,
+found here: https://github.com/mermaid-js/mermaid/blob/develop/LICENSE
+
+---
+
+All content not otherwise licensed above is licensed under an ISC license,
+which is as follows:
+
+© 2013–present Christopher Down <chris@chrisdown.name>
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
