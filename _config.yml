@@ -36,10 +36,10 @@ highlighter: rouge
 
 header:
   links:
-    - icon: book
+    - icon: list
       url: /archive.html
       title: Blog archive
-    - icon: camera
+    - icon: instagram
       url: https://www.instagram.com/rullypratamaa/
       title: My Instagram profile
     - icon: linkedin
@@ -48,7 +48,7 @@ header:
     - icon: twitter
       url: https://twitter.com/rullyypratamaa
       title: My Twitter profile
-    - icon: github
+    - icon: resume
       url: /assets/resume/resume.html
       title: My Resume
 
