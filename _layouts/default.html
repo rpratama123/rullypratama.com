@@ -20,7 +20,11 @@ https://github.com/cdown/chrisdown.name/blob/master/LICENSE
     <meta name="description" content="{{ page.description | escape_once }}">
     {% endif %}
     <meta name="viewport" content="width=device-width">
-
+	
+	<link rel="preload" as="font" href="/fonts/fontawesome-stripped.woff2" crossorigin>
+	<link rel="preload" as="font" href="/fonts/open-sans.woff2" crossorigin>
+	<link rel="preload" as="font" href="/fonts/open-sans-bold.woff2" crossorigin>
+	
     <link rel="stylesheet" href="/css/style.css?{{ site.data["gitrev"] }}">
     {% if page.flags_css %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flagpack@1.0.5/dist/flagpack.css">
@@ -46,7 +50,11 @@ https://github.com/cdown/chrisdown.name/blob/master/LICENSE
     <meta property="twitter:image" content="{{ site.url }}/assets/images/thumbnail.png">
     <meta property="twitter:creator" content="@rullyypratamaa">
     <meta property="twitter:site" content="@rullyypratamaa">
-
+	
+	{% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics.html %}
+	{% endif %}
+	
   </head>
   <body data-instant-intensity="viewport-all">
     <div class="body">

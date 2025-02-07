@@ -1,6 +1,8 @@
 This is the source code for the website that is displayed at
 [rullypratama.com][]. The source is processed using [Jekyll][].
 
+Originl theme created by [Chris Down](https://github.com/cdown/chrisdown.name).
+
 [rullypratama.com]: https://rullypratama.com
 [Jekyll]: http://jekyllrb.com
 
