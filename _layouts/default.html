@@ -42,6 +42,7 @@ https://github.com/cdown/chrisdown.name/blob/master/LICENSE
     <meta property="og:description" content="{{ og_desc | escape_once }}">
     <meta property="og:type" content="article">
     <meta property="og:image" content="{{ site.url }}/assets/images/thumbnail.png">
+	<meta property="og:logo" content="{{ site.url }}/favicon-32x32.png">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
 
     <meta property="twitter:title" content="{{ page.title | escape_once }}">
@@ -51,9 +52,7 @@ https://github.com/cdown/chrisdown.name/blob/master/LICENSE
     <meta property="twitter:creator" content="@rullyypratamaa">
     <meta property="twitter:site" content="@rullyypratamaa">
 	
-	{% if site.google_analytics and jekyll.environment == 'production' %}
-		{% include analytics.html %}
-	{% endif %}
+	{% include analytics.html %}
 	
   </head>
   <body data-instant-intensity="viewport-all">
