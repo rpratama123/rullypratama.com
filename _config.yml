@@ -9,6 +9,8 @@ personal:
   email: hello@rullypratama.com
   account: rully
 
+permalink: /:year/:month/:slug:output_ext
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -39,15 +41,12 @@ header:
     - icon: list
       url: /archive.html
       title: Blog archive
-    - icon: instagram
-      url: https://www.instagram.com/rullypratamaa/
-      title: My Instagram profile
+    - icon: camera
+      url: https://photos.rullypratama.com
+      title: My photo gallery
     - icon: linkedin
       url: https://www.linkedin.com/in/rullypratama
       title: My LinkedIn profile
-    - icon: twitter
-      url: https://twitter.com/rullyypratamaa
-      title: My Twitter profile
     - icon: resume
       url: /assets/resume/resume.html
       title: My Resume

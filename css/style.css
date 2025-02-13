@@ -144,6 +144,10 @@ aside {
     }
 }
 
+ul, ol {
+    line-height: 1.7;
+}
+
 a {
     color: #B6000F;
     text-decoration: none;
@@ -254,7 +258,7 @@ header nav div.home h1 {
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding-bottom: 0.1em;
     border-bottom: 1px solid #ccc;
 }
@@ -265,6 +269,11 @@ h3 {
     border-bottom: 1px solid #ccc;
     font-style: italic;
     font-weight: bold;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin: 0.6em 0;
 }
 
 footer {

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Rully Pratama Blog"
+title: "Rully Pratama • Blog"
 ---
 
 Halo! Saya Rully Pratama, seorang Business Intelligence Supervisor di Teleperformance Indonesia. Blog ini saya buat untuk berbagi cerita dan pemikiran seputar berbagai hal yang saya minati.
