@@ -14,34 +14,9 @@ GEM
     execjs (2.10.0)
     fastimage (2.4.0)
     ffi (1.17.0)
-    ffi (1.17.0-aarch64-linux-gnu)
-    ffi (1.17.0-aarch64-linux-musl)
-    ffi (1.17.0-arm-linux-gnu)
-    ffi (1.17.0-arm-linux-musl)
-    ffi (1.17.0-arm64-darwin)
-    ffi (1.17.0-x86-linux-gnu)
-    ffi (1.17.0-x86-linux-musl)
-    ffi (1.17.0-x86_64-darwin)
-    ffi (1.17.0-x86_64-linux-gnu)
-    ffi (1.17.0-x86_64-linux-musl)
     fileutils (1.7.3)
     forwardable-extended (2.6.0)
     google-protobuf (4.28.3)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.3-aarch64-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.3-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.3-x86-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.3-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.28.3-x86_64-linux)
       bigdecimal
       rake (>= 13)
     htmlcompressor (0.4.0)
@@ -118,6 +93,8 @@ GEM
       google-protobuf (~> 4.28)
     sass-embedded (1.80.6-arm64-darwin)
       google-protobuf (~> 4.28)
+    sass-embedded (1.80.6-x64-mingw-ucrt)
+      google-protobuf (~> 4.28)
     sass-embedded (1.80.6-x86-linux-android)
       google-protobuf (~> 4.28)
     sass-embedded (1.80.6-x86-linux-gnu)
@@ -149,6 +126,7 @@ PLATFORMS
   arm-linux-musleabihf
   arm64-darwin
   ruby
+  x64-mingw-ucrt
   x86-linux
   x86-linux-android
   x86-linux-gnu
