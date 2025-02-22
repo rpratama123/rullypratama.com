@@ -11,3 +11,6 @@ gem 'fastimage'
 
 # https://github.com/jekyll/jekyll/issues/8523
 gem 'webrick'
+
+# for Microsoft windows
+gem 'wdm'

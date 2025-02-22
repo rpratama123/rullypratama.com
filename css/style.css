@@ -212,7 +212,7 @@ header nav div.home a {
     margin-left: 0; /* Since this navigation element is always the leftmost, we
                        override it to not have any left margin (whereas the
                        other links in the nav area do. ) */
-    padding: 0 0.4em;
+    padding: 0.1em 0.4em;
 }
 
 header nav div.home h1 {

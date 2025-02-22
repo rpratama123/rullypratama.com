@@ -15,6 +15,12 @@ Selamat mampir!
 - [FreeBSD Sebagai Sistem Operasi Sehari-hari di Tahun 2021](/freebsd-sebagai-sistem-operasi-sehari-hari-di-tahun-2021/)
 - [Selain Resolusi, Perhatikan Juga Ukuran Diagonal Saat Membeli Monitor](/memilih-ukuran-monitor/)
 
+## Tulisan terbaru
+
+- [YouTube Tidak Menyimpan History? Mengapa?](/2025/02/youtube-tidak-merekam-history.html)
+- [Dual Boot Windows dengan VHDX](/2025/02/dual-boot-windows-dengan-vhdx.html)
+- [Banana Pi NAS yang Hemat Energi](/banana-pi-nas/)
+
 Tulisan lain tersedia di [halaman arsip](/archive.html).
 
 <!-- Structured data for Google -->
@@ -24,6 +30,6 @@ Tulisan lain tersedia di [halaman arsip](/archive.html).
 <meta itemprop="jobTitle" content="Business Intelligence Supervisor at Teleperformance">
 <meta itemprop="email" content="hello@rullypratama.com">
 <meta itemprop="url" content="https://rullypratama.com">
-<meta itemprop="image" content="https://chrisdown.name/assets/images/thumbnail.png">
+<meta itemprop="image" content="https://rullypratama.com/assets/images/thumbnail.png">
 <meta itemprop="name" content="Rully Pratama">
 </div>

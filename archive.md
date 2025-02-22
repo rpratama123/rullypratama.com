@@ -4,7 +4,7 @@ title: Articles
 description: Recent articles by Chris Down on Linux and other technologies.
 ---
 
-# Articles
+# Daftar artikel
 
 {% assign posts = site.posts %}
 

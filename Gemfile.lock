@@ -14,9 +14,38 @@ GEM
     execjs (2.10.0)
     fastimage (2.4.0)
     ffi (1.17.0)
+    ffi (1.17.0-aarch64-linux-gnu)
+    ffi (1.17.0-aarch64-linux-musl)
+    ffi (1.17.0-arm-linux-gnu)
+    ffi (1.17.0-arm-linux-musl)
+    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86-linux-gnu)
+    ffi (1.17.0-x86-linux-musl)
+    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
+    ffi (1.17.0-x86_64-linux-musl)
     fileutils (1.7.3)
     forwardable-extended (2.6.0)
     google-protobuf (4.28.3)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.3-aarch64-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.3-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.3-x64-mingw-ucrt)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.3-x86-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.3-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.28.3-x86_64-linux)
       bigdecimal
       rake (>= 13)
     htmlcompressor (0.4.0)
@@ -114,6 +143,7 @@ GEM
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
+    wdm (0.2.0)
     webrick (1.9.0)
 
 PLATFORMS
@@ -145,6 +175,7 @@ DEPENDENCIES
   jekyll-purgecss
   jekyll-sitemap
   rake
+  wdm
   webrick
 
 BUNDLED WITH
