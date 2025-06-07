@@ -158,21 +158,6 @@ https://github.com/cdown/chrisdown.name/blob/master/LICENSE
         c.className = "nowrap";
       });
     </script>
-    <script>
-      const imageList = [...document.getElementsByTagName('img')];
-      imageList.forEach((img) => {
-        if (img.className.includes('nonstandard')) {
-          return;
-        }
-        if (img.className.includes('leaflet-marker-icon')) {
-          return;
-        }
-        const a = document.createElement('a');
-        a.href = img.src;
-        img.parentNode.replaceChild(a, img);
-        a.appendChild(img);
-      });
-    </script>
   </div>
 </body>
 </html>

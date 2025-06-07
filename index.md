@@ -17,9 +17,9 @@ Selamat mampir!
 
 ## Tulisan terbaru
 
+- [Apakah Lumix GX7 ISO Invariant?](/2025/06/apakah-lumix-gx7-iso-invariant.html)
 - [YouTube Tidak Menyimpan History? Mengapa?](/2025/02/youtube-tidak-merekam-history.html)
 - [Dual Boot Windows dengan VHDX](/2025/02/dual-boot-windows-dengan-vhdx.html)
-- [Banana Pi NAS yang Hemat Energi](/banana-pi-nas/)
 
 Tulisan lain tersedia di [halaman arsip](/archive.html).
 
