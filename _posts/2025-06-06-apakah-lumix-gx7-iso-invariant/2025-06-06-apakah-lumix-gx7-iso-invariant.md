@@ -42,7 +42,7 @@ Nah berikut ini jalur yang ditempuh oleh cahaya hingga menjadi file digital:
 | **Tahapan**                | **ISO Variant**                                    | **ISO Invariant**                                  |
 |----------------------------|----------------------------------------------------|----------------------------------------------------|
 | Sensor                     | Cahaya ditangkap dan menghasilkan tegangan listrik | Cahaya ditangkap dan menghasilkan tegangan listrik |
-| Amplifikasi                | **Besarannya sesuai dengan ISO yang dipakai**      | Tidak terpengaruh dengan ISO yang dipilih          |
+| Amplifikasi Analog          | **Besarannya sesuai dengan ISO yang dipakai**      | Tidak terpengaruh dengan ISO yang dipilih          |
 | Konversi Analog ke Digital | Tegangan listrik dikonversi menjadi data           | Tegangan listrik dikonversi menjadi data           |
 | Amplifikasi Digital        | Minimal                                            | **Besarannya sesuai dengan ISO yang dipakai**      |
 | Output                     | Berupa file digital                                | Berupa file digital                                |
