@@ -17,9 +17,9 @@ Selamat mampir!
 
 ## Tulisan terbaru
 
+- [Mengapa Foto RAW yang Sama Terlihat Berbeda-beda?](/2025/06/mengapa-foto-raw-terlihat-berbeda.html)
 - [Apakah Lumix GX7 ISO Invariant?](/2025/06/apakah-lumix-gx7-iso-invariant.html)
 - [YouTube Tidak Menyimpan History? Mengapa?](/2025/02/youtube-tidak-merekam-history.html)
-- [Dual Boot Windows dengan VHDX](/2025/02/dual-boot-windows-dengan-vhdx.html)
 
 Tulisan lain tersedia di [halaman arsip](/archive.html).
 
